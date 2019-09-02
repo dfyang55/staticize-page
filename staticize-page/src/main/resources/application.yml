@@ -1,0 +1,14 @@
+spring:
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+    encoding: UTF-8
+    check-template-location: true
+    servlet:
+      content-type: text/html
+    mode: HTML
+    cache: false
+custom:
+  user:
+    url: http://localhost:8080/user
+    file: user.html
